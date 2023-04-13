@@ -25,9 +25,9 @@ fetch(
       marker.on("click", function () {
         // Highlight marker
         markers.forEach((m) =>
-          m.setIcon(L.icon({ iconUrl: "circle_icon.png" }))
+          m.setIcon(L.icon({ iconUrl: "./assets/location-pin.png" }))
         );
-        this.setIcon(L.icon({ iconUrl: "./assets/location-pin.png" }));
+        this.setIcon(L.icon({ iconUrl: "./assets/location.png" }));
 
         // Center map on marker
         map.setView(this.getLatLng(), 10);
