@@ -1,0 +1,63 @@
+#map {
+  height: 70vh;
+}
+ul{
+  background: white;
+  
+  margin: 5px;
+  cursor: pointer;
+}
+
+  #list {
+      position: absolute;
+      top: 180px;
+      right: 10px;
+      z-index: 1000;
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #list input {
+      display: block;
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  #list ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 300px;
+      overflow-y: auto;
+  }
+
+  #list li {
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      transition: background-color 0.2s ease-in-out;
+  }
+
+  #list li:hover {
+      background-color: #ddd;
+  }
+
+  #list li.selected {
+      background-color: #007bff;
+      color: white;
+  }
+
+  #list li.selected:hover {
+      background-color: #007bff;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
